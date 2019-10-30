@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Open Sans, sans-serif;
   line-height: 1.5;
   background-color: #fff;
 }
@@ -32,10 +32,6 @@ p {
 h2 , p {
   padding: 0;
   margin-top: 0;
-}
-
-small {
-  font-style: italic;
 }
 
 nav {
@@ -83,7 +79,8 @@ a {
 
 div {
   display: inline-flex;
-  flex-direction: column;
+  flex-grow: auto;
+  width: 25%;
   margin: 0;
   padding: 0;
   /* border-left: solid 3px #333; */
