@@ -86,6 +86,6 @@ div {
   flex-direction: column;
   margin: 0;
   padding: 0;
-  border-left: solid 3px #333;
+  /* border-left: solid 3px #333; */
   flex-wrap: wrap;
 }
